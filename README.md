@@ -23,7 +23,15 @@ in Entra ID.<br />
 - Windows 11
 <h2>Sign-In Logs </h2>
 
+<p>
+<img width="1078" height="486" alt="image" src="https://github.com/user-attachments/assets/26b936fc-6019-4f5c-ad0f-b7e08a42151b" />
 
+
+</p>
+<p>
+Sign-In Logs are important they show Date, Request ID, User, Application, Status, Sign-in error code, IP address, Location, Conditional Access, Agent Type, Authentication and lastly Authentication requirement. Sign-In Logs of ourselves to interpret our own sign-in and other Verification of Sign-In activity.
+</p>
+<br />
 
 
 <p>
@@ -32,17 +40,11 @@ in Entra ID.<br />
 
 </p>
 <p>
-Audit Logs are very important for IAM, will show everything that was done under every User. They show Date, Service, Category, Activity, Status, Status reason, Target(s), & Initiated by (actor). E.g. Delete user, Add member(s), and Get signInIdentifiers.
+Audit Logs are very important for IAM, they are the "black box" of your identity perimeter, will show everything that was done under every User. They show Date, Service, Category, Activity, Status, Status reason, Target(s), & Initiated by (actor). E.g. Delete user, Add member(s), and Get signInIdentifiers. 
+Other Thoughts -  If an attacker gains entry-level access, their next move is to become an admin. 
+other Thoughts - Entra Audit logs are system-generated and cannot be deleted or modified even by admins, thus serving a great purpose in legal and forensic cases. 
 </p>
 <br />
 
 
-<p>
-<img width="1078" height="486" alt="image" src="https://github.com/user-attachments/assets/26b936fc-6019-4f5c-ad0f-b7e08a42151b" />
 
-
-</p>
-<p>
-Sign-In Logs are just as important they show Date, Request ID, User, Application, Status, Sign-in error code, IP address, Location, Conditional Access, Agent Type, Authentication and lastly Authentication requirement. Sign-In Logs of ourselves to interpret our own sign-in activity. 
-</p>
-<br />
