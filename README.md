@@ -1,7 +1,7 @@
 # Viewing and Interpreting Sign-In Logs in Microsoft Azure's Entra ID <p align="center">
 
 
-<img width="600" height="400" alt="image" src="https://github.com/userattachments/assets/14806b36-bc52-44a8-a825-615241d884e0" />
+<img width="796" height="312" alt="image" src="https://github.com/user-attachments/assets/b4f3bd29-6a20-42e2-9736-856048402be3" />
 </p>
 
 
@@ -23,13 +23,26 @@ in Entra ID.<br />
 - Windows 11
 <h2>Sign-In Logs </h2>
 
-<p>
-<img width="1916" height="886" alt="image" src="https://github.com/userattachments/assets/bae0b986-2d53-474f-9a86-c07b9b545a72" />
 
+
+
+<p>
+<img width="1501" height="782" alt="image" src="https://github.com/user-attachments/assets/2f12ae15-5fe2-47a9-9fa3-88f92f32dcb8" />
 
 
 </p>
 <p>
-Sign-In Logs of ourselves to interpret our own sign-in activity.
+Audit Logs are very important for IAM, will show everything that was done under every User. They show Date, Service, Category, Activity, Status, Status reason, Target(s), & Initiated by (actor). E.g. Delete user, Add member(s), and Get signInIdentifiers.
+</p>
+<br />
+
+
+<p>
+<img width="1078" height="486" alt="image" src="https://github.com/user-attachments/assets/26b936fc-6019-4f5c-ad0f-b7e08a42151b" />
+
+
+</p>
+<p>
+Sign-In Logs are just as important they show Date, Request ID, User, Application, Status, Sign-in error code, IP address, Location, Conditional Access, Agent Type, Authentication and lastly Authentication requirement. Sign-In Logs of ourselves to interpret our own sign-in activity. 
 </p>
 <br />
